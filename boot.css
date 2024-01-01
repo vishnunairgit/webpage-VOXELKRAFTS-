@@ -1,0 +1,606 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    
+}
+.body{
+margin: 0%;
+padding: 0%;
+
+}
+
+/* media queri */
+@media (max-width:650px)
+ {
+    .first-navebar .nav-link
+    {
+        /* padding: px !important; */
+        
+    }
+    .first-navebar .navbar-brand
+    {
+        display: flex;
+        flex-direction: column !important;
+
+    }
+
+    .first-navbar .d-flex
+    {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+
+
+    .second-navbar .nav-link
+    {
+        padding: 0% !important;
+    }
+
+
+
+
+    /* middle section */
+    .landing-bg .innovation 
+    {
+      font-size:45px !important;
+    }
+    .landing-bg h3
+    {
+        font-size:20px !important;
+    }
+
+
+} 
+
+
+
+.first-navebar .nav-link{
+    display: inline-block;
+    padding: 0px;
+}
+
+/* top-first navbar */
+.first-navebar.navbar-expand-lg {
+    /* height: 50px; */
+    font-weight: 500;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    background-color: white;
+}
+/* 3 line (monile view ) baground colour */
+.navbar-expand-lg .navbar-brand{
+    color: white !important;
+}
+
+/* .contact-left a
+{
+    text-decoration: none !important;
+    color: white;
+    border-right:  1px solid white;
+
+}
+.right-side .language-select
+{
+    background-color: black;
+    color: white;
+    border: none;
+  
+} */
+
+
+
+/* .right-side-component a{
+    text-decoration: none !important;
+    color:white;
+}
+.contact-us {
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+
+} */
+
+
+/* .top-second-navbar{
+    background-color: white;
+} */
+
+
+/* top- second navbar */
+
+.second-navbar-logo .navbar-logo{
+    height: 80px;
+    /* background-image: none !important; */
+}
+
+
+/* .top-second-navbar .second-navbar-right a
+{
+text-decoration: none;
+color: black;
+font-weight:300px !important ;
+} */
+
+.second-navbar .nav-link{
+    color: black !important;
+    font-weight: 500;
+}
+
+/* 3 line (monile view ) baground colour  */
+.first-navebar .nav-link{
+    color: white !important;
+}
+
+ /* .middle section  */
+
+
+/* for background img - for bootstrap- we can add
+the image in css part bu using the background url */
+
+.middle-baground-img{
+    background: url(assets/landing\ page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    /* this commond will use to remove the brightness of the 
+    baground image. we can highlifht the text cobtent */
+    background-color:dark black;
+    opacity: 1;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+.landing-bg .innovation
+{
+    font-size: 70px;
+    color:black;
+    font-weight: bold;
+}
+.landing-bg h3
+{
+    font-size:50px;
+    font-weight: bold;
+    color: black;
+}
+.landing-bg p{
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.landing-bg a{
+color: rgb(235, 71, 71);
+}
+
+
+/* .bottam-navbar{
+width: 50%;
+} */
+
+/* first */
+
+
+
+
+.know-contact 
+{
+    background-color: rgb(59, 59, 184);
+    align-self: center;
+}
+.know-contact  p{
+    font-size: 40px;
+    color: white;
+    font-family: Arial;
+    
+}
+.know-contact .know-more
+{
+    border-radius: 25px;
+    padding: 3px 29px 3px 29px ;
+}
+.know-contact .contact
+{
+    border-radius: 25px;
+    padding: 3px 29px 3px 29px ;
+    background: none;
+    border: 2px solid white;
+    
+}
+
+/* carousal-1 */
+
+ .carousel-img 
+{
+    height: 450px !important;
+}
+
+.first-carousal-text-1
+{
+    text-align:justify ;
+    line-height: 80%;
+    color: black;
+    
+}
+
+.first-carousal-text-1 .text-2 
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.first-carousal-text-1 .text-3
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+.first-carousal-text-1 .text-4
+{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+/* .carosal-1-text-2
+{
+    font-size: 10px;
+} */
+.first-carousal-text-2{
+    color: black;
+    font-size: 12px;
+    text-align: justify;
+    text-align-last: center;
+    padding-top: 40px;
+}
+
+
+/* second-carousal */
+ .second-text-1 .second-text-data
+{
+
+    line-height: 80% ;
+    text-align: justify; 
+    color: black;
+} 
+.second-text-1 .second-text-data .text-2 
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second-text-1 .second-text-data .text-3
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+.second-text-1 .second-text-data .text-4
+{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.second-slide-text-2 
+{
+    color: black ;
+    text-align-last: center;
+    text-align: justify; 
+    font-size: 10px;
+    padding: 20px;
+    font-weight: 500;
+
+}
+    
+/* grid */
+
+.grid-main
+{
+    background-color: rgb(211, 205, 211);
+
+}
+.grid-top-text
+{
+    text-align: center;
+    padding: 40px 0 0 0 ;
+    font-weight: 700;
+
+   
+}
+.grid-1
+{ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    column-gap: 5px;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 70px;
+}
+
+.grid-item-1
+{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.grid-item-4
+{
+    grid-column: 4;
+    grid-row: 4;
+    grid-column:span 2;
+    grid-row:span 2;
+}
+
+.grid-1 p
+{
+    font-weight: 600;
+    margin: 0%;
+}
+/* .grid-item-2
+{
+    grid-column: 2;
+    grid-row: 3; 
+}
+
+.grid-item-6
+{
+    grid-column: 4;
+    grid-row: 1; 
+} */
+
+
+
+/* carosal + logo after grid */
+  .carousel-indicators button
+  {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    background-color: blue !important; 
+   
+  }
+
+.carousal-main{
+    background-color: #eff3f2;
+    /* display: flex; */
+     padding: 70px;
+}
+
+.main-left-side 
+{
+    width: 40%;
+    /* height: 200px; */
+
+}
+
+/* main-left-side */
+.carosal-logo-img-1
+{
+    /* width: 90%; */
+    height: 500px;
+    margin-bottom: 50px;
+}
+.text-logo
+{
+    width: 100%;
+    padding-top: 0px;
+    /* padding-top: 20px; */
+    
+}
+
+/* main-right-side */
+.main-right-side
+{
+padding-left: 30px;
+}
+.main-right-side-logo
+{
+    width: 30%;
+    padding: 15px 0 15px 0 ;
+    margin: 20px 0 20px 0 ;
+}
+.main-right-side h5
+{
+font-weight: bold;
+}
+/* .main-right-side h5
+{
+font-weight: 700;
+} */
+.main-right-side .same-text 
+{
+text-align: justify;
+padding-right: 170px;
+font-weight: 400;
+
+
+}
+
+
+/* carousal images */
+
+.first-owi-carousal .owl-pagination
+{
+/* height: 50px; */
+/* background-color: rgb(241, 241, 241); */
+padding:12px;
+}
+.first-owi-carousal .owl-item
+{
+    /* height: 300px; */
+    /* background-color: blue; */
+    /* margin: 10px; */
+    /* width: 100%; */
+    padding: 10px;
+
+}
+.first-owi-carousal .w-100{
+    height: 400px;
+}
+
+.first-owi-carousal .first-owi-name-designatio .name
+{
+    text-align: center;
+    color: blue;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+}
+.first-owi-carousal .first-owi-name-designatio .designation
+{
+    text-align: center;
+    color:white;
+    font-size: 20px; 
+}
+
+
+/* second owi-carousal */
+/* carousal images */
+
+.second-owi-carousal .owl-pagination
+{
+/* height: 50px; */
+/* background-color: rgb(241, 241, 241); */
+    padding:px;
+}
+.second-owi-carousal .owl-item
+{
+    /* height: 300px; */
+    background-color: rgb(74, 74, 206);
+    /* margin: 10px; */
+    /* width: 100%; */
+    padding: 0px;
+
+}
+.second-owi-carousal .w-100{
+    height: 150px;
+    padding: 5px;
+}
+
+/* .second-owi-carousal .first-owi-name-designatio .name
+{
+    text-align: center;
+    color: blue;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+} */
+/* .first-owi-carousal .first-owi-name-designatio .designation
+{
+    text-align: center;
+    color:white;
+    font-size 20px; 
+} */
+
+
+
+/* bottum nav-bar */
+
+
+/* first sction */
+
+.bottum-first-navebar .navbar-logo
+{
+
+    height: 80px;
+    border-radius: 10px;
+    /* background-image: none !important; */
+}
+
+/* .bottum-first-navebar .nav-link{
+    display: inline-block;
+    padding: 0px;
+} */
+
+/* top-first navbar */
+/* .bottum-first-navebar .navbar-expand-lg {
+    height: 50px;
+    font-weight: 500;
+} */
+/* .bottum-first-navebar.navbar-toggler {
+    color: white;
+    background-color: white;
+} */
+
+ .top-line
+{
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    margin:auto;
+}
+
+
+
+
+
+/* second scetion */
+
+
+
+.bottum-second-rightside .bottum-second-text
+{
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    margin: 15px;
+   
+    font-size: 14px;
+    padding: 10px 10px ;
+    width: 230px;
+    /* border-radius: 6px; */
+    /* margin-top: 12px;  
+    margin-bottom: 6px;   */
+    /* align-self: center; */
+    border: 1px solid #dddfe2;   
+}
+
+
+
+.btn-outline-primary
+{
+    border-radius: 40px !important;
+    color:blue;
+    font-weight: 500 !important;
+    background-color: black !important;
+    margin: 15px 0 15px 15px;
+
+   
+    font-size: 14px !important;
+    padding: 10px 10px !important ;
+    width: 230px !important;
+    /* border-radius: 6px; */
+    /* margin-top: 12px;  
+    margin-bottom: 6px;   */
+    /* align-self: center; */
+    border: 1px solid #dddfe2 !important; 
+}
+
+.bottum-line
+{
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    margin:auto;
+}
+
+
+
+/* 3-section */
+.bottum-third-navbar .bottum-third-left
+{
+    color: white;
+}
+
+.bottum-third-navbar .bottum-third-left a
+{
+    text-decoration: none !important;
+
+}   
+
+
+
+
+
+
+
